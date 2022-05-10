@@ -28,26 +28,30 @@
           <a href="./index.html" class="logo">Web<span class="logo--dark">Studio</span></a>
           <!--Menu-->
           <ul class="site-nav">
-            <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
             <li class="site-nav__item">
-              <a href="./portfolio.html" class="site-nav__link current">Портфолио</a>
+              <a href="./index.html" class="site-nav__link">Студия</a>
+            </li>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link site-nav__link--current"
+                >Портфолио</a
+              >
             </li>
             <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
         </nav>
         <!--Menu contacts-->
         <ul class="header-contacts">
-          <li class="item header-email">
-            <a href="mailto:info@devstudio.com" class="header-contacts-link">
-              <svg class="icon-envelope-hover" width="16" height="12">
+          <li class="header-contacts__item">
+            <a href="mailto:info@devstudio.com" class="header-contacts__link">
+              <svg class="header-contacts__icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item header-phone">
-            <a href="tel:+380961111111" class="header-contacts-link">
-              <svg class="icon-phone-mob" width="10" height="16">
+          <li class="header-contacts__item">
+            <a href="tel:+380961111111" class="header-contacts__link">
+              <svg class="header-contacts__icon" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-phone-mob"></use>
               </svg>
               +38 096 111 11 11</a
@@ -60,18 +64,18 @@
       <!-- Filtr -->
       <section class="section">
         <div class="container">
-          <h1 class="filtr-name visually-hidden">Фильтр</h1>
+          <h1 class="visually-hidden">Фильтр</h1>
           <ul class="filtr-button">
-            <li class="item"><button type="button" class="pointer button-link">Все</button></li>
+            <li class="item"><button type="button" class="button-link">Все</button></li>
             <li class="item">
-              <button type="button" class="pointer button-link">Веб-сайты</button>
+              <button type="button" class="button-link">Веб-сайты</button>
             </li>
             <li class="item">
-              <button type="button" class="pointer button-link">Приложения</button>
+              <button type="button" class="button-link">Приложения</button>
             </li>
-            <li class="item"><button type="button" class="pointer button-link">Дизайн</button></li>
+            <li class="item"><button type="button" class="button-link">Дизайн</button></li>
             <li class="item">
-              <button type="button" class="pointer button-link">Маркетинг</button>
+              <button type="button" class="button-link">Маркетинг</button>
             </li>
           </ul>
 
