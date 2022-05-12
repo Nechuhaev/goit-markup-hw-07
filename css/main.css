@@ -147,11 +147,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__link:hover {
-  color: var(--accent-color);
-}
-
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
 
@@ -219,12 +215,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contacts__link:hover {
-  color: var(--accent-color);
-  fill: var(--accent-color);
-}
-
-.header-contacts__link:focus {
+.header-contacts__link:hover, .header-contacts__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -472,12 +463,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-section__soc-link:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-button-text-color);
-}
-
-.team-section__soc-link:focus {
+.team-section__soc-link:hover, .team-section__soc-link:focus {
   background-color: var(--accent-color);
   fill: var(--primary-button-text-color);
 }
@@ -534,12 +520,7 @@ a {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__link:hover {
-  border: 1px solid var(--accent-color);
-  fill: var(--accent-color);
-}
-
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
@@ -623,11 +604,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-address__item-link:hover {
-  color: var(--accent-color);
-}
-
-.footer-address__item-link:focus {
+.footer-address__item-link:hover, .footer-address__item-link:focus {
   color: var(--accent-color);
 }
 
@@ -673,12 +650,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.connection__link:hover {
-  background-color: var(--accent-color);
-  fill: var(--primary-button-text-color);
-}
-
-.connection__link:focus {
+.connection__link:hover, .connection__link:focus {
   background-color: var(--accent-color);
   fill: var(--primary-button-text-color);
 }
@@ -860,14 +832,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filtr-button__link:hover {
-  color: var(--primary-button-text-color);
-  background-color: var(--accent-color);
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
-.filtr-button__link:focus {
+.filtr-button__link:hover, .filtr-button__link:focus {
   color: var(--primary-button-text-color);
   background-color: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -899,12 +864,7 @@ a {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.projects__item--overlay:hover {
-  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-.projects__item--overlay:focus {
+.projects__item--overlay:hover, .projects__item--overlay:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -1253,16 +1213,7 @@ textarea:focus-within {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-submit-form:focus {
-  background-color: #188ce8;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-}
-
-.button-submit-form:hover {
+.button-submit-form:focus, .button-submit-form:hover {
   background-color: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
