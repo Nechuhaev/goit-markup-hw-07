@@ -1,10 +1,7 @@
-.page-hero {
+.hero {
     background-color: #c4c4c4;
     text-align: center;
     padding: 200px 0;
-}
-
-.page-hero__overlay {
     max-height: 600px;
     max-width: 1600px;
     margin-left: auto;
@@ -16,7 +13,7 @@
     background-position: center;
 }
 
-.page-hero__title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.5;
@@ -27,7 +24,7 @@
     margin-bottom: 30px;
 }
 
-.page-hero__button {
+.hero__button {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
