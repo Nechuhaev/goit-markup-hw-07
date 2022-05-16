@@ -1,13 +1,4 @@
-.works__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.works__list {
+.works {
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
@@ -18,12 +9,12 @@
     margin-left: 30px;
 }
 
-.works__item--img {
+.works__box {
     position: relative;
     display: flex;
 }
 
-.works__item--text {
+.works__desc {
     position: absolute;
     right: 0;
     bottom: 0;

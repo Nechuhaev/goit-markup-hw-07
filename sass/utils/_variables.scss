@@ -29,6 +29,23 @@ body {
     padding-bottom: 94px;
 }
 
+.section--no-padding-top {
+    padding-top: 0;
+}
+
+.section--other-background {
+    background-color: #f5f4fa;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;

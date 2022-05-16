@@ -3,7 +3,7 @@
 }
 
 .connection__title,
-.subscription-footer__title {
+.subscription__title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -13,11 +13,11 @@
     color: var(--secondary-logo-color);
 }
 
-.connection__list {
+.social {
     display: flex;
 }
 
-.connection__link {
+.social__link {
     display: flex;
     height: 44px;
     width: 44px;
@@ -38,7 +38,7 @@
     }
 }
 
-.connection__item {
+.social__item {
     margin-left: 10px;
 
     &:first-child {
@@ -46,9 +46,7 @@
     }
 }
 
-
-
-.connection__icon {
+.social__icon {
     padding: 0;
     margin: 0;
     width: 20px;
